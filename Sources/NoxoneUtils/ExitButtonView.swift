@@ -9,10 +9,10 @@
 import SwiftUI
 
 @available(iOS 15, macOS 12.0, *)
-struct ExitButtonView: View {
+public struct ExitButtonView: View {
     @Environment(\.colorScheme) private var colorScheme
     
-    var body: some View {
+    public var body: some View {
         ZStack {
             Circle()
                 .fill(.thinMaterial)
