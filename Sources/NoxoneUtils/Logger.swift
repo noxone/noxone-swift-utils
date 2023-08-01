@@ -8,8 +8,8 @@
 import SwiftUI
 import os.log
 
-extension Logger {
-    init(category: String) {
+public extension Logger {
+    public init(category: String) {
         self.init(subsystem: Bundle.main.bundleIdentifier!, category: category)
     }
 }

@@ -19,7 +19,7 @@ fileprivate let logger = Logger(category: "QRunInBackgroundAssertion")
 /// You should aim to explicitly release the assertion yourself, as soon as
 /// you’ve completed the work that the assertion covers.
 
-final class QRunInBackgroundAssertion {
+public final class QRunInBackgroundAssertion {
     
     /// The name used when creating the assertion.
 
@@ -45,7 +45,7 @@ final class QRunInBackgroundAssertion {
     ///
     /// Must be called on the main thread.
 
-    init(name: String) {
+    public init(name: String) {
         // dispatchPrecondition(condition: .onQueue(.main))
         self.name = name
         self.systemDidReleaseAssertion = nil
@@ -70,7 +70,7 @@ final class QRunInBackgroundAssertion {
     ///
     /// Must be called on the main thread.
 
-    func release() {
+    public func release() {
         // dispatchPrecondition(condition: .onQueue(.main))
         self.consumeValidTaskID { _ in }
         logger.info("Released: \(self.name)")
