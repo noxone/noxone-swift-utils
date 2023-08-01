@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+@available(iOS 15, macOS 12.0, *)
 struct ExitButtonView: View {
     @Environment(\.colorScheme) private var colorScheme
     
