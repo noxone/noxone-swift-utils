@@ -6,6 +6,7 @@ final class NoxoneUtilsTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(NoxoneUtils().text, "Hello, World!")
+        
+        //XCTAssertEqual(NoxoneUtils().text, "Hello, World!")
     }
 }

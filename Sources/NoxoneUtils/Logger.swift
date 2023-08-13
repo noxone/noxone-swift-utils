@@ -9,7 +9,7 @@ import SwiftUI
 import os.log
 
 public extension Logger {
-    public init(category: String) {
+    init(category: String) {
         self.init(subsystem: Bundle.main.bundleIdentifier!, category: category)
     }
 }

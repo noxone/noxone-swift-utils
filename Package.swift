@@ -8,7 +8,7 @@ import PackageDescription
 let package = Package(
     name: "NoxoneUtils",
     platforms: [
-        .iOS(.v15), .tvOS(.v13), .watchOS(.v7)
+        .iOS(.v16), .tvOS(.v13), .watchOS(.v7)
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
