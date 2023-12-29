@@ -7,6 +7,8 @@
 
 //
 
+#if os(iOS)
+
 import SwiftUI
 
 public struct CloseableView<Content: View>: View {
@@ -70,3 +72,5 @@ struct CloseableView_Previews: PreviewProvider {
         }
     }
 }
+
+#endif

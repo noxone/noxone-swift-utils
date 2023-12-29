@@ -5,6 +5,8 @@
 //  Created by Olaf Neumann on 11.08.23.
 //
 
+#if os(iOS)
+
 import SwiftUI
 import StoreKit
 import os.log
@@ -132,3 +134,5 @@ struct PurchaseProductView_Previews: PreviewProvider {
         }
     }
 }
+
+#endif
