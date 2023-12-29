@@ -1,5 +1,7 @@
 // https://developer.apple.com/forums/thread/729335
 
+#if os(iOS) || os(tvOS)
+
 import Foundation
 import UIKit
 import os.log
@@ -110,3 +112,5 @@ public final class QRunInBackgroundAssertion {
         }
     }
 }
+
+#endif
