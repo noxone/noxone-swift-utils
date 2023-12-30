@@ -1,4 +1,4 @@
-// swift-tools-version: 5.8
+// swift-tools-version: 5.7
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 /// https://developer.apple.com/documentation/xcode/creating-a-standalone-swift-package-with-xcode
